@@ -16,4 +16,13 @@ fun main(){
     myDog.info()
     myDog.makeSound()
     myDog.fetch()
+
+    println()
+
+    val myDuck = Duck(name = "Donald", age = 4)
+
+    myDuck.info()
+    myDuck.makeSound()
+    myDuck.fly()
+    myDuck.swim()
 }
